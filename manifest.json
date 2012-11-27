@@ -1,0 +1,15 @@
+{
+  "name": "Akita for Chrome",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Google Chrome add-on for Akita bookmarking",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://weed30.com/",
+    "http://api.flickr.com/"
+  ]
+}
